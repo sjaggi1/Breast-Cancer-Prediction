@@ -43,15 +43,21 @@ The different variable information are given bellow:
 10. Class:                        (2 for benign, 4 for malignant)
 
 # Results
-The accuracy of the machine learning model: 
+# The accuracy of the machine learning model:
 
-The accuracy of the machine learning model using k-fold cross validation: 
+https://github.com/sjaggi1/Breast-Cancer-Prediction/issues/1#issue-2381848470
 
+# The accuracy of the machine learning model using k-fold cross validation: 
 
-PREDICTED RESULT:
+https://github.com/sjaggi1/Breast-Cancer-Prediction/issues/2#issue-2381849206
 
-ACTUAL OUTCOME OF THE MODEL: 
+# PREDICTED RESULT:
 
+https://github.com/sjaggi1/Breast-Cancer-Prediction/issues/3#issue-2381849654
+
+# ACTUAL OUTCOME OF THE MODEL: 
+
+https://github.com/sjaggi1/Breast-Cancer-Prediction/issues/4#issue-2381850269
 
 
 
