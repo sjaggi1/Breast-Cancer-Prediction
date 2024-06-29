@@ -1,4 +1,4 @@
-![image](https://github.com/sjaggi1/Breast-Cancer-Prediction/assets/144943702/88fd8568-0b9f-41e0-a944-e9c2698dad75)# Breast-Cancer-Prediction
+# Breast-Cancer-Prediction
 The system aims to predict the class of breast cancer as Benign or Malignant. This involves using machine learning for making predictions accurately. This project utilizes logistic regression models to predict breast cancer based on key clinical features. 
 
 # System Approach
@@ -58,10 +58,6 @@ https://github.com/sjaggi1/Breast-Cancer-Prediction/issues/3#issue-2381849654
 # ACTUAL OUTCOME OF THE MODEL: 
 
 https://github.com/sjaggi1/Breast-Cancer-Prediction/issues/4#issue-2381850269
-
-
-
-
 
 # Conclusion
 1. The breast cancer detection model using logistic regression successfully demonstrates the potential of machine learning in medical diagnosis. By analyzing clinical features the model effectively predicts the likelihood of malignancy aiding in early detection and significantly improving patient outcomes. The interpretability and accuracy of logistic regression make it a valuable tool for healthcare professionals, providing insights that enhance diagnostic decision-making.
