@@ -28,8 +28,21 @@ The system aims to predict the class of breast cancer as Benign or Malignant. Th
     d) cross_val_score: For cross-validation.
 5. Pickle: Used for saving and loading the trained model.
 
-# Conclusion
+# Dataset Information
+The different variable information are given bellow:
+   Sample code number:            id number
+1. Clump Thickness:               1 - 10
+2. Uniformity of Cell Size:       1 - 10
+3. Uniformity of Cell Shape:      1 - 10
+4. Marginal Adhesion:             1 - 10
+5. Single Epithelial Cell Size:   1 - 10
+6. Bare Nuclei:                   1 - 10
+7. Bland Chromatin:               1 - 10
+8. Normal Nucleoli:               1 - 10
+9. Mitoses:                       1 - 10
+10. Class:                        (2 for benign, 4 for malignant)
 
+# Conclusion
 1. The breast cancer detection model using logistic regression successfully demonstrates the potential of machine learning in medical diagnosis. By analyzing clinical features the model effectively predicts the likelihood of malignancy aiding in early detection and significantly improving patient outcomes. The interpretability and accuracy of logistic regression make it a valuable tool for healthcare professionals, providing insights that enhance diagnostic decision-making.
 2. The findings indicate that logistic regression can accurately classify cases underscoring its utility in real-world medical applications. However, challenges such as data quality and feature selection were encountered during implementation. Addressing these challenges through robust data preprocessing and advanced feature engineering can further improve model performance.
 3. Future improvements may include incorporating more diverse datasets and exploring additional machine learning algorithms to enhance accuracy. The importance of accurate predictions cannot be overstated as early detection plays a crucial role in patient medical condition.
