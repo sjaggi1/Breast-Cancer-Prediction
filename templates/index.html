@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project IBM Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" style = "text-align: center">
+        <h2 class="subtitle" style = "color: green"><strong>Breast Cancer Prediction</strong></h2>
+
+        <form id="predictionForm" action="/predict" method="post">
+            <div class="dropdown-container">
+                <label for="clump_thickness">Clump Thickness:</label>
+                <select id="clump_thickness" name="clump_thickness">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <br>
+            <div class="dropdown-container">
+                <label for="uniformity_of_cell_size">Uniformity of Cell Size:</label>
+                <select id="uniformity_of_cell_size" name="uniformity_of_cell_size">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <br>
+            <div class="dropdown-container">
+                <label for="uniformity_of_cell_shape">Uniformity of Cell Shape:</label>
+                <select id="uniformity_of_cell_shape" name="uniformity_of_cell_shape">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <br>
+            <div class="dropdown-container">
+                <label for="marginal_adhesion">Marginal Adhesion:</label>
+                <select id="marginal_adhesion" name="marginal_adhesion">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <br>
+            <div class="dropdown-container">
+                <label for="single_epithelial_cell_size">Single Epithelial Cell Size:</label>
+                <select id="single_epithelial_cell_size" name="single_epithelial_cell_size">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <br>
+            <div class="dropdown-container">
+                <label for="bare_nuclei">Bare Nuclei:</label>
+                <select id="bare_nuclei" name="bare_nuclei">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <br>
+            <div class="dropdown-container">
+                <label for="bland_chromatin">Bland Chromatin:</label>
+                <select id="bland_chromatin" name="bland_chromatin">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <br>
+            <div class="dropdown-container">
+                <label for="normal_nucleoli">Normal Nucleoli:</label>
+                <select id="normal_nucleoli" name="normal_nucleoli">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <br>
+            <div class="dropdown-container">
+                <label for="mitoses">Mitoses:</label>
+                <select id="mitoses" name="mitoses">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <br>
+            <button type="submit" style="background-color: grey"><b>Get Prediction</b></button>
+        </form>
+    </div>
+    
+    <h4 style="text-align: center"><b>{{ pred }}</b></h4>
+</body>
+</html>
